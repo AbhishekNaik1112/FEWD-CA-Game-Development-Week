@@ -124,7 +124,7 @@ header {
 
 /* MAIN GAME SCREEN STYLES  */
 #collisionCanvas {
-  opacity: 1;
+  opacity: 0;
 }
 
 #canvas1 {
@@ -266,6 +266,4 @@ header {
     position: absolute;
     left: 0.1em;
   }
-  
-  
-  
+}
