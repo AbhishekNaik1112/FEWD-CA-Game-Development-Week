@@ -143,7 +143,7 @@ class Explosion {
   draw() {
     ctx.drawImage(
       this.image,
-      this.frame * this.spriteWidth, //Draw logic for Explosion objects
+      this.frame * this.spriteWidth,
       0,
       this.spriteWidth,
       this.spriteHeight,
@@ -221,7 +221,7 @@ window.addEventListener("click", function (e) {
 function getScoreMessage(score) {
   let message;
   if (score >= 0 && score <= 10) {
-    message = "Nice start!";
+    message = "Baby Steps..!!!";
   } else if (score > 10 && score <= 20) {
     message = "Getting better!";
   } else if (score > 20 && score <= 30) {
